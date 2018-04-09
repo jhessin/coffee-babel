@@ -1,7 +1,19 @@
-data = require './data'
+CoffeeScript = require 'coffeescript'
 
-console.log JSON.stringify data
+{ compile, register } = CoffeeScript
 
-module.exports = exports = data
+defaultOptions =
+  sourceMap: true
+  transpile:
+    presets: [ 'env' ]
 
-export { exports as default}
+CoffeeScript.compile = (file, options) ->
+  compile file, {
+    options...
+    defaultOptions...
+  }
+
+CoffeeScript.register()
+
+module.exports = (options)->
+  defaultOptions = options
