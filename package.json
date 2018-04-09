@@ -18,6 +18,7 @@
     "watch": "gulp watch",
     "pretest": "gulp",
     "postinstall": "gulp",
+    "prepublishOnly": "nsp check",
     "precommit": "lint-staged",
     "test": "jest"
   },
