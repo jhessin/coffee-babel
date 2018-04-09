@@ -1,0 +1,9 @@
+{
+  "generator-coffee-node": {
+    "promptValues": {
+      "authorName": "Jim Hessin",
+      "authorEmail": "jhessin@gmail.com",
+      "authorUrl": "http://www.grillbrickstudios.com"
+    }
+  }
+}

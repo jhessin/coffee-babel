@@ -1,0 +1,51 @@
+{
+  "name": "coffee-babel",
+  "version": "0.0.0",
+  "description": "A simple wrapper around coffeescript/register to allow parameters to be passed to coffeescript.",
+  "homepage": "https://github.com/jhessin/coffee-babel",
+  "repository": "jhessin/coffee-babel",
+  "author": {
+    "name": "Jim Hessin",
+    "email": "jhessin@gmail.com",
+    "url": "http://www.grillbrickstudios.com"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "scripts": {
+    "start": "gulp && node .",
+    "watch": "gulp watch",
+    "pretest": "gulp",
+    "postinstall": "gulp",
+    "prepublishOnly": "nsp check",
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.coffee": [
+      "coffeelint",
+      "git add"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.2.4",
+    "gulp": "^4.0.0",
+    "gulp-coffee": "^3.0.2",
+    "gulp-cson": "^0.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.4",
+    "nsp": "^3.2.1"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "license": "MIT"
+}
