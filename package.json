@@ -1,6 +1,6 @@
 {
   "name": "coffee-babel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple wrapper around coffeescript/register to allow parameters to be passed to coffeescript.",
   "homepage": "https://github.com/jhessin/coffee-babel",
   "repository": "jhessin/coffee-babel",
@@ -18,7 +18,6 @@
     "watch": "gulp watch",
     "pretest": "gulp",
     "postinstall": "gulp",
-    "prepublishOnly": "nsp check",
     "precommit": "lint-staged",
     "test": "jest"
   },
