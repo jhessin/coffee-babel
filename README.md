@@ -4,7 +4,7 @@ This is a node application generated using [generator-coffee-node](https://githu
 
 This package came about as an attempt to improve on the default `coffeescript/register` method of importing .coffee files. Currently there is no way to pass options. This wrapper does that for you.
 
-This wouldn't be possible without [this post](https://github.com/jashkenas/coffeescript/issues/4769#issuecomment-341394509). The primary code is a copy-paste of his code with a few tweaks - many thanks to him.
+This wouldn't be possible without [this post](https://github.com/jashkenas/coffeescript/issues/4769#issuecomment-341394509). The primary code is a copy-paste of [GeoffreyBooth](https://github.com/GeoffreyBooth) and [suprMax](https://github.com/suprMax)'s code with a few tweaks - many thanks to them.
 
 By default this package uses v2.2.4 of coffeescript. Any modern version of node should use whatever you are using though.
 
