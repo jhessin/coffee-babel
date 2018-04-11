@@ -1,6 +1,6 @@
 {
   "name": "coffee-babel",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A simple wrapper around coffeescript/register to allow parameters to be passed to coffeescript.",
   "homepage": "https://github.com/jhessin/coffee-babel",
   "repository": "jhessin/coffee-babel",
