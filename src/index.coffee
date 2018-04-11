@@ -1,19 +1,11 @@
-CoffeeScript = require 'coffeescript'
-
-{ compile, register } = CoffeeScript
-
 defaultOptions =
-  sourceMap: true
+  sourcemap: true
   transpile:
     presets: [ 'env' ]
 
-CoffeeScript.compile = (file, options) ->
-  compile file, {
-    options...
-    defaultOptions...
-  }
-
-CoffeeScript.register()
+require('module').prototype.options = defaultOptions
+require('coffeescript/register')
 
 module.exports = (options)->
-  defaultOptions = options
+  require('module').prototype.options = options ? {}
+  require('coffeescript/register')

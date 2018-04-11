@@ -17,7 +17,7 @@
     "start": "gulp && node .",
     "watch": "gulp watch",
     "pretest": "gulp",
-    "prepublishOnly": "nsp check && gulp",
+    "prepare": "nsp check && gulp",
     "precommit": "lint-staged",
     "test": "jest"
   },
