@@ -1,5 +1,7 @@
 # coffee-babel [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
+# NOTICE: No longer maintained. Feel free to fork if you are interested.
+
 This is a node application generated using [generator-coffee-node](https://github.com/jhessin/generator-coffee-node).
 
 This package came about as an attempt to improve on the default `coffeescript/register` method of importing .coffee files. Currently there is no way to pass options. This wrapper does that for you.
